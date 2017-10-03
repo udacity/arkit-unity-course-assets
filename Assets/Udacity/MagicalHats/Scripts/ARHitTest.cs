@@ -21,7 +21,7 @@ public class ARHitTest : MonoBehaviour {
 
 		// prioritize result types
 		ARHitTestResultType[] resultTypes = {
-			//ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent, // if you want to want to use bounded planes
+			//ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent, // if you want to use bounded planes
 			//ARHitTestResultType.ARHitTestResultTypeExistingPlane, // if you want to use infinite planes 
 			ARHitTestResultType.ARHitTestResultTypeFeaturePoint // if you want to hit test on feature points
 		}; 
