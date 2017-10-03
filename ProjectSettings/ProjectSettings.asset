@@ -144,7 +144,7 @@ PlayerSettings:
     Android: com.Company.ProductName
     Standalone: unity.Unity Technologies.Native Rendering Plugin Example
     Tizen: com.Company.ProductName
-    iOS: com.unity.coursemats
+    iOS: com.udacity.coursemats
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0
@@ -342,7 +342,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: AR BABY
+  cameraUsageDescription: LearnARKit
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNetLibKey: 
