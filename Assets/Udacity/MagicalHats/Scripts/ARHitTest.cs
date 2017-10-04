@@ -75,7 +75,7 @@ public class ARHitTest : MonoBehaviour {
 	}
 
 	IEnumerator Swap(Transform item1, Transform item2, float duration){
-		//Lerp the poisition of item1 and item2 so that the switch places
+		//Lerp the position of item1 and item2 so that they switch places
 		//the transition should take "duration" amount of time
 		//Optional: try making sure the hats do not collide with each other
 		yield return null; //placeholder to make sure this compiles
