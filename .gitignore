@@ -33,5 +33,4 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.fbm
-*.meta
 .DS_Store
