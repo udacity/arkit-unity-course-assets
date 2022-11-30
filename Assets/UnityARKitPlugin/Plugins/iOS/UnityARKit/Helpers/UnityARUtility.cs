@@ -35,9 +35,7 @@ namespace UnityEngine.XR.iOS
 			//do coordinate conversion from ARKit to Unity
 			plane.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
 			plane.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
-			plane.transform.localScale = new Vector3(arPlaneAnchor.extent.x , 1f ,arPlaneAnchor.extent.z );
 
-			/*
 			MeshFilter mf = plane.GetComponentInChildren<MeshFilter> ();
 
 			if (mf != null) {
@@ -47,7 +45,6 @@ namespace UnityEngine.XR.iOS
                 //convert our center position to unity coords
                 mf.gameObject.transform.localPosition = new Vector3(arPlaneAnchor.center.x,arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
 			}
-			*/
 
 			return plane;
 		}
